@@ -1,0 +1,7 @@
+node_modules
+chat_run.sh
+account
+yarn-error.log
+.env
+slang.js
+/logs/

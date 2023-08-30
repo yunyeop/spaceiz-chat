@@ -1,0 +1,19 @@
+{
+  "name": "spacez-chat",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/spaceiz/spaceiz-chat.git",
+  "author": "yunyeop <yykim000922@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "pm2 start chat.config.js",
+    "start:dev": "pm2-dev start chat.config.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "socket.io": "2.3.0",
+    "socket.io-redis": "5.3.0"
+  }
+}
